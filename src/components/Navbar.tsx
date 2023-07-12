@@ -30,7 +30,7 @@ const Navbar:React.FC = () => {
 
   return (
     <>
-      <section className="flex items-center justify-between sm:px-12 px-4 py-3 bg-white rounded"
+      <section className="flex items-center justify-between sm:px-12 px-4 py-3 bg-white rounded shadow-xl"
       >
         <div>
             <p className="font-semibold">Blog</p>
