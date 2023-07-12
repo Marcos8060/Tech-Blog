@@ -19,3 +19,12 @@
   .blogSection::-webkit-scrollbar {
     display: none;
   }
+  .rightSection {
+    display: grid;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  .rightSection::-webkit-scrollbar {
+    display: none;
+  }
