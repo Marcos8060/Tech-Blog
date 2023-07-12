@@ -14,10 +14,10 @@ export default function Home() {
           <div className="w-2/12 mx-auto">
             <LeftBar />
           </div>
-          <div className="w-1/2 mx-auto">
+          <div className="w-7/12 mx-auto">
             <MainSection />
           </div>
-          <div className="w-4/12 mx-auto">
+          <div className="w-3/12 mx-auto">
             <RightBar />
           </div>
         </div>
