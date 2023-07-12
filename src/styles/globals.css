@@ -7,3 +7,15 @@
 * {
     font-family: "Montserrat", sans-serif;
   }
+
+
+  .blogSection {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  .blogSection::-webkit-scrollbar {
+    display: none;
+  }
