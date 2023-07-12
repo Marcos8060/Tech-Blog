@@ -1,4 +1,7 @@
+import LeftBar from "@/components/LeftBar";
+import MainSection from "@/components/MainSection";
 import Navbar from "@/components/Navbar";
+import RightBar from "@/components/RightBar";
 
 export default function Home() {
   return (
@@ -6,6 +9,17 @@ export default function Home() {
       <section className="bg-[#E5E5E5] h-screen">
         <div className="px-12 py-4">
           <Navbar />
+        </div>
+        <div className="flex gap-4 px-12">
+          <div className="w-2/12 mx-auto">
+            <LeftBar />
+          </div>
+          <div className="w-1/2 mx-auto">
+            <MainSection />
+          </div>
+          <div className="w-4/12 mx-auto">
+            <RightBar />
+          </div>
         </div>
       </section>
     </>
