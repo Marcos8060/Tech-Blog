@@ -53,7 +53,7 @@ const MainSection = () => {
       <section className="h-[80vh]">
         <div className="relative">
           <img
-            className="rounded-xl h-[40vh] w-full object-cover"
+            className="rounded-xl h-[35vh] w-full object-cover"
             src={img1.src}
             alt=""
           />
