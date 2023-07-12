@@ -1,8 +1,14 @@
 import React from 'react'
+import img1 from '../images/h.jpg'
+
 
 const MainSection = () => {
   return (
-    <div>MainSection</div>
+    <>
+    <section>
+      <img className='rounded-xl h-[40vh] w-full object-cover' src={img1.src} alt="" />
+    </section>
+    </>
   )
 }
 
