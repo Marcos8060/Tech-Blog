@@ -66,7 +66,7 @@ const MainSection = () => {
         </div>
         <div className="blogSection gap-4 py-3 h-[47vh]">
           {data.map((datum) => (
-            <section className="w-full cursor-pointer" key={datum.id}>
+            <section className="w-full cursor-pointer my-4" key={datum.id}>
               <img
                 className="h-40 w-full object-cover rounded-t-lg"
                 src={datum.img.src}
